@@ -51,7 +51,8 @@ public class Main {
         }
         //filters html files
         List<String> htmlFiles = htmlList.stream()
-                .filter((String s) -> s.endsWith(".html")).collect(Collectors.toList());
+//                .filter((String s) -> s.endsWith(".html")).collect(Collectors.toList());
+                .filter((String s) -> s.contains(".ht")).collect(Collectors.toList());
         int number = htmlFiles.size();
 
         //asks for permission before deleting files
@@ -127,7 +128,6 @@ public class Main {
                     .filter((String s) -> s.endsWith(".jpg")).collect(Collectors.toList());
 
 //images sorting
-            //Collections.sort(pages, String.CASE_INSENSITIVE_ORDER);
             pages.sort(Comparator.nullsFirst(Comparator.comparing(String::length).thenComparing(Comparator.naturalOrder())));
 
             int pNumber = pages.size();
