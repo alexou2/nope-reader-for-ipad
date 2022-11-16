@@ -1,11 +1,11 @@
 thanks for trying my project!
 
-What it does
+What it does: 
 The base version of nope-reader is a program that creates html pages to read manga chapters. It was made for pc (linux and windows compatible) and it was made for ease of use. 
 This version is a slightly modified version of the original nope-reader that was made to solve the problem of css and icon files not being used when viewing an html file on ios. It will also workon pc, but its not ideal as it requires manually copying files. 
 
 
-How to use it
+How to use it:
 1)download the chapters you want from any site (by default, only .img images will be added to the html file).
 2)add the chapter folders in a directory with the name of the manga. then move your new folder onto the ./manga folder that I created. The relative path has to look something like this: ./manga/the_manga's_name/
 2.5)I will provide an example of a manga.
