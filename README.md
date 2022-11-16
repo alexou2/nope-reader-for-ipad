@@ -9,7 +9,8 @@ This version is a slightly modified version of the original nope-reader that was
 
 
 How to use it:
-0)Do the first 6 steps on your pc because as far as I know, you can't compile jaa programs on ios.
+
+Do the first 6 steps on your pc because as far as I know, you can't compile jaa programs on ios.
 
 1)download the chapters you want from any site (by default, only .img images will be added to the html file).
 
