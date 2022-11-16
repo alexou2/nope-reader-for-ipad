@@ -15,5 +15,7 @@ How to use it
    4.2)On linux, type " java src/Main.java ". alternatively, you can run the shell script that I provided.
    4.3)For the oher windows plebs, you can run the .bat file.
 4.4)*IMPORTANT* If you are running the program for the first time on windows or have a bunch of .htm files (NOT html), you might need to change the line 54 of /src/Main.java . If that is the case, copy this text (without the quotes) ".filter((String s) -> s.endsWith(".htm")).collect(Collectors.toList());" in line 45, replacing the line that was previously there. After that, yo can undo the change you made if you plan on reusing the program in the same folder. 
+5)The program will ask you for a manga name. Answer with the name of the folder you created earlier. In the example I provided, the name is seal. No need to specify that it is in the manga folder.
+6)Enjoy! The program should show you where to find the files.
 
 If you are interested, I am also working on a node.js version of this program and it should work better than this. (it might not be finished by the time you check it) 

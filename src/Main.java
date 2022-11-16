@@ -151,7 +151,8 @@ public class Main {
                     bw.close();
                     pageList.removeAll(pageList);
                 }
-                System.out.println("finished creating files for: " + mangaName);
+                System.out.println("\nfinished creating files for: " + mangaName);
+                System.out.println("\n\nyou can now view the chapters in "+System.getProperty("user.dir")+File.separator+"manga"+mangaName);
             }
         }
 
