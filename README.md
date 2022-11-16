@@ -28,8 +28,6 @@ Do the first 6 steps on your pc because as far as I know, you can't compile jaa 
 
 4.3)For the oher windows plebs, you can run the .bat file.
 
-4.4)*IMPORTANT* If you are running the program for the first time on windows or have a bunch of .htm files (NOT html), you might need to change the line 54 of /src/Main.java . If that is the case, copy this text (without the quotes) ".filter((String s) -> s.endsWith(".htm")).collect(Collectors.toList());" in line 45, replacing the line that was previously there. After that, yo can undo the change you made if you plan on reusing the program in the same folder. 
-
 5)The program will ask you for a manga name. Answer with the name of the folder you created earlier. In the example I provided, the name is seal. No need to specify that it is in the manga folder.
 
 6)Enjoy! The program should show you where to find the files. You can now transfer the entire manga folder to your ios device. You can transfer only a chapter to your device, but be sure that the ressources folder is in the same folder as the chapter. 
