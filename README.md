@@ -1,3 +1,6 @@
+**I don't post updates for this project. Please use my nope-reader project and run it with `-i` as an argument (as in ```java src/Main.java -i``` ). It will modify the paths to work on an ios device**
+
+
 thanks for trying my project!
 
 What it does: 
